@@ -465,11 +465,11 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate  {
         let font12 = UIFont(name: "DinAlternate-Bold", size: 12.0)
         
         //add the app title Label (Branding, branding, branding! )
-        appTitleLabel.text = "  Open GPX Tracker"
+        appTitleLabel.text = "  hTracker"
         appTitleLabel.textAlignment = .left
         appTitleLabel.font = UIFont.boldSystemFont(ofSize: 10)
         //appTitleLabel.textColor = UIColor(red: 0.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
-        appTitleLabel.textColor = UIColor.yellow
+        appTitleLabel.textColor = UIColor.white
         appTitleLabel.backgroundColor = UIColor(red: 58.0/255.0, green: 57.0/255.0, blue: 54.0/255.0, alpha: 0.80)
         self.view.addSubview(appTitleLabel)
         
